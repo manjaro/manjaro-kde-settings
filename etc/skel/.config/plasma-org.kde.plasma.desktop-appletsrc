@@ -16,37 +16,12 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][1][Applets][15]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][1][Applets][16]
-immutability=1
-plugin=org.kde.plasma.showdesktop
-
-[Containments][1][Applets][18]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][1][Applets][18][Configuration][General]
-applicationName=Dolphin
-genericName=File Manager
-iconName=system-file-manager
-url=file:///usr/share/applications/org.kde.dolphin.desktop
-
-[Containments][1][Applets][19]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][1][Applets][19][Configuration][General]
-applicationName=Firefox
-genericName=Web Browser
-iconName=firefox
-url=file:///usr/share/applications/firefox.desktop
-
 [Containments][1][Applets][2]
 immutability=1
 plugin=org.kde.plasma.kickoff
+
+[Containments][1][Applets][2][Configuration][General]
+favorites=firefox.desktop,qupzilla.desktop,org.kde.dolphin.desktop,org.kde.konversation.desktop,libreoffice-writer.desktop,cantata.desktop,kde4-digikam.desktop,org.kde.konsole.desktop,octopi.desktop,systemsettings.desktop
 
 [Containments][1][Applets][2][Configuration][Shortcuts]
 global=Alt+F1
@@ -58,51 +33,35 @@ global=Alt+F1
 immutability=1
 plugin=org.kde.plasma.pager
 
-[Containments][1][Applets][32]
+[Containments][1][Applets][4]
 immutability=1
-plugin=org.kde.plasma.trash
+plugin=org.kde.plasma.icontasks
+
+[Containments][1][Applets][4][Configuration][General]
+launchers=file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=dolphin,file:///usr/share/applications/firefox.desktop?wmClass=firefox
 
 [Containments][1][Applets][5]
 immutability=1
-plugin=org.kde.plasma.systemtray
-
-[Containments][1][Applets][5][Configuration][Containments][8]
-formfactor=2
-location=4
-
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][10]
-immutability=1
-plugin=org.kde.plasma.notifications
-
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][11]
-immutability=1
-plugin=org.kde.plasma.devicenotifier
-
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][12]
-immutability=1
-plugin=org.kde.plasma.clipboard
-
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][13]
-immutability=1
-plugin=org.kde.plasma.mediacontroller
-
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][14]
-immutability=1
-plugin=org.kde.plasma.networkmanagement
-
-[Containments][1][Applets][5][Configuration][Containments][8][Applets][9]
-immutability=1
-plugin=org.kde.plasma.battery
+plugin=org.kde.plasma.showdesktop
 
 [Containments][1][Applets][6]
 immutability=1
+plugin=org.kde.plasma.trash
+
+[Containments][1][Applets][7]
+immutability=1
+plugin=org.kde.plasma.systemtray
+
+[Containments][1][Applets][7][Configuration][Containments][8]
+formfactor=2
+location=4
+
+[Containments][1][Applets][8]
+immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][1][ConfigDialog]
-DialogHeight=81
-
 [Containments][1][General]
-AppletOrder=2;16;18;19;15;3;32;5;6
+AppletOrder=2;3;4;5;6;7;8
 
 [Containments][33]
 activityId=aadc2224-b656-435d-84d5-8595a19fff6c
@@ -131,5 +90,3 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=
 
-[Containments][33][General]
-ItemsGeometries=Applet-34:32,37,571,411,0;
