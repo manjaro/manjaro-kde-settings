@@ -1,8 +1,8 @@
 [General]
 shadeSortColumn=true
 BrowserApplication=firefox
-ColorScheme=Maia
-Name=Maia
+ColorScheme=Breath
+Name=Breath
 fixed=Noto Mono,9,-1,0,50,0,0,0,0,0
 font=Noto Sans,10,-1,5,50,0,0,0,0,0
 menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
@@ -10,13 +10,13 @@ smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
 toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=maia
+Theme=breath
 
 [KDE]
 ChangeCursor=true
-ColorScheme=Maia
+ColorScheme=Breath
 contrast=7
-LookAndFeelPackage=org.kde.maia.desktop
+LookAndFeelPackage=org.kde.breath.desktop
 widgetStyle=breeze
 
 [Paths]
