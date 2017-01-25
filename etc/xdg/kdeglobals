@@ -13,6 +13,8 @@ toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
 Theme=breath
 
 [KDE]
+DoubleClickInterval=400
+SingleClick=false
 ChangeCursor=true
 ColorScheme=Breath
 contrast=7
