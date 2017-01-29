@@ -11,9 +11,9 @@ GTK3_THEME_RC="$HOME/.config/gtk-3.0/settings.ini"
 
 # Create "gtkrc-2.0" file if it doesn't exist
 if [ ! -e "$GTK2_THEME_RC" ]; then
-  # Maia, the default
-  if [ -e "$GTK2_DATADIR/Maia/gtk-2.0/gtkrc" ] ; then
-    THEME="Maia"
+  # Breath
+  if [ -e "$GTK2_DATADIR/Breath/gtk-2.0/gtkrc" ] ; then
+    THEME="Breath"
   # else use Adwaita engine
   elif [ -e "$GTK2_DATADIR/Adwaita/gtk-2.0/gtkrc" ] ; then
     THEME="Adwaita"
@@ -27,9 +27,9 @@ fi
 # GTK3
 # Create "settings.ini" file if it doesn't exist
 if [ ! -e "$GTK3_THEME_RC" ]; then
-  # Maia, the default
-  if [ -e "$GTK2_DATADIR/Maia/gtk-3.0/gtk.css" ] ; then
-    THEME="Maia"
+  # Breath
+  if [ -e "$GTK2_DATADIR/Breath/gtk-3.0/gtk.css" ] ; then
+    THEME="Breath"
   # else use Adwaita
   elif [ -e "$GTK2_DATADIR/Adwaita/gtk-3.0/gtk.css" ] ; then
     THEME="Adwaita"
