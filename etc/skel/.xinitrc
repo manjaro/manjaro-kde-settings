@@ -9,8 +9,6 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-export EDITOR=/usr/bin/nano
-
 DEFAULT_SESSION=startkde
 
 # merge in defaults and keymaps
